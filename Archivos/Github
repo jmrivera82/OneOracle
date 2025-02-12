@@ -40,3 +40,20 @@ git restore --source hash archivo ** par restaurar a una versión anterior
 [Git - Github]$ git branch
 * main
 git checkout -b desarrollo
+
+
+[Git - Github]$ git branch
+* desarrollo
+  main
+
+[Git - Github]$ git switch main
+M	Archivos/Github
+Cambiado a rama 'main'
+Tu rama está actualizada con 'origin/main'.
+
+***para fusionar
+git merge rama
+git push origin main
+
+
+
