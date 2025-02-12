@@ -36,3 +36,7 @@ git log --oneline
 git diff archivo ** para ver los cambios realizados
 
 git restore --source hash archivo ** par restaurar a una versión anterior
+
+[Git - Github]$ git branch
+* main
+git checkout -b desarrollo
