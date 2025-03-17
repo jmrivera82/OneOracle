@@ -44,7 +44,7 @@ function agregarAmigo(){
 function sortearAmigo(){
 
 
-    if (document.querySelector('#amigo').value ===''){
+    if (listaAmigos.length === 0){
 
         alert("No hay nombres ingresados para hacer el sorteo")
 
@@ -53,7 +53,7 @@ function sortearAmigo(){
         cantidadDeNombres = listaAmigos.length
         console.log(cantidadDeNombres)
     
-        let numeroLista = Math.floor(Math.random()*cantidadDeNombres)+1
+        let numeroLista = Math.floor(Math.random()*cantidadDeNombres)
         console.log(numeroLista)
     
         console.log(`El nombre sorteado es ${listaAmigos[numeroLista]}`)
@@ -62,6 +62,7 @@ function sortearAmigo(){
     }
 
 }
+
 
 
 
