@@ -47,6 +47,8 @@ function sortearAmigo(){
     if (listaAmigos.length === 0){
 
         alert("No hay nombres ingresados para hacer el sorteo")
+        limpiarAmigo()
+        asignarNombre('ul',"")
 
     } else {
 
@@ -59,8 +61,6 @@ function sortearAmigo(){
         console.log(`El nombre sorteado es ${listaAmigos[numeroLista]}`)
         asignarNombre('ul',`El nombre sorteado es: ${listaAmigos[numeroLista]}`)
         listaAmigos=[]
-        //console.log(listaAmigos)
-
     }
 
 }
