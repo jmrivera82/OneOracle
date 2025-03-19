@@ -58,6 +58,8 @@ function sortearAmigo(){
     
         console.log(`El nombre sorteado es ${listaAmigos[numeroLista]}`)
         asignarNombre('ul',`El nombre sorteado es: ${listaAmigos[numeroLista]}`)
+        listaAmigos=[]
+        //console.log(listaAmigos)
 
     }
 
